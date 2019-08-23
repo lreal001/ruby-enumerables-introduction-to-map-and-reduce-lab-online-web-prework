@@ -39,6 +39,6 @@ end
 
 def
 reduce_to_any_true(source_array)
- [ false, nil, nil, nil].any?
+ ![ false, nil, nil, nil].any?
 end 
 
