@@ -28,7 +28,7 @@ end
 def
 reduce_to_total(array)
 array=[1,2,3]
-array.reduce {|sum|sum+num}
+array.reduce (0, :+)
 end
 
 def
