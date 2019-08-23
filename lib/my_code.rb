@@ -43,5 +43,8 @@ reduce_to_any_true(source_array)
 [ false, nil, nil, nil, true].any?
 end 
 
+def
+reduce_to_all_true(source_array)
+[1, 2, true, "razmatazz"].all?
 
 
