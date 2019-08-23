@@ -18,6 +18,7 @@ def
   array.map {|n| n*2}
 end 
 
+
 def
 map_to_square(source_array)
 array=[1,2,3,-9]
