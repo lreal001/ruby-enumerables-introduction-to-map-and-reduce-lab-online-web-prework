@@ -40,6 +40,5 @@ end
 def
 reduce_to_any_true(source_array)
  source_array = [ false, nil, nil, nil]
-my_list.reduce(false) { |memo, obj| memo && obj } 
 end 
 
