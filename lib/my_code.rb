@@ -34,7 +34,7 @@ end
 def
 reduce_to_all_true(source_array)
 array=[1,2,3]
-array.reduce(100) {|sum,n|sum+n}
+array.reduce(0, :+)
 num=array[index]
 end 
 
